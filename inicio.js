@@ -37,10 +37,10 @@ app.get('/proyecto5', (req, res) => {
   res.render('proyecto5');
 });
 app.get('/proyecto6', (req, res) => {
-    res.render('proyecto5');
+    res.render('proyecto6');
   });
   app.get('/proyecto7', (req, res) => {
-    res.render('proyecto5');
+    res.render('proyecto7');
   });
 
 app.listen(port, () => {
