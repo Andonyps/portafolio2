@@ -3,137 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <!-- ENCABEZADO -->
+    <!-- Header con navegación -->
     <header>
         <nav>
-            <h1>Elián Jairo Uzías Pérez Rosales</h1>
+            <h1>Brenton Andony - Portafolio</h1>
             <a href="/">Inicio</a>
             <a href="/proyecto1">Proyecto 1</a>
             <a href="/proyecto2">Proyecto 2</a>
             <a href="/proyecto3">Proyecto 3</a>
             <a href="/proyecto4">Proyecto 4</a>
             <a href="/proyecto5">Proyecto 5</a>
-            <a href="/proyecto6">Proyecto 6</a>
-            <a href="/proyecto7">Proyecto 7</a>
+       
         </nav>
     </header>
-    
-    <!-- SECCION 1 INFO -->
-    <section id="informacion-personal">
-        <div id="sidebar">
-            <div id="profile">
-                <img src="./imagenes/Jairo2.jpg" alt="Foto Elian">
-            </div>
-        </div>
-        <h1>Información Personal</h1>
-        <h3>Ingeniero en Sistemas de Información y Ciencias de la Computación. En este portafolio web podrá visualizar brevemente algunos de los proyectos que he realizado durante la carrera.</h3>
-    </section>
 
-    <!-- SECCION 2 HABILIDADES -->
-    <section id="habilidades">
-        <h1>Habilidades</h1>
-        <div class="skill">
-            <p>HTML 80%</p>
-            <div class="progress-bar">
-                <div class="progress" style="width: 80%;"></div>
+    <div class="container">
+        <div class="columna1">
+            <img src="/IMAGENES/yo.jpg" alt="Descripción de la imagen">
+            <div class="info-list">
+                <div class="info-item">
+                    <img src="/IMAGENES/iconyo.png" height="25px" width="25px" alt="Icono Nombre" class="logo">
+                    <p class="texto-bajo">Brenton Andony Manuel Par Sohon</p>
+                </div>
+                <div class="info-item">
+                    <img src="/IMAGENES/correo.png" height="25px" width="25px" alt="Icono Correo" class="logo">
+                    <p class="texto-bajo">andony71002@gmail.com</p>
+                </div>
             </div>
         </div>
-        <div class="skill">
-            <p>JAVASCRIPT 75%</p>
-            <div class="progress-bar">
-                <div class="progress" style="width: 75%;"></div>
+        
+        <div class="columna2">
+            <div class="info-sections">
+                <a href="#portafolio" class="seccion">Portafolio</a>
+                <a href="#habilidades" class="seccion">Habilidades</a>
+                <a href="#contacto" class="seccion">Contacto</a>
+                <a href="#info-personal" class="seccion">Información Personal</a>
             </div>
-        </div>
-        <div class="skill">
-            <p>MATLAB 90%</p>
-            <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- SECCION 3 PORTAFOLIO -->
-    <section id="portafolio">
-        <h1>Portafolio</h1>
-        <div class="portfolio-item">
-            <a href="/proyecto1">
-                <img src="./imagenes/proy1matlab.png" alt="Proyecto 1">
-                <div class="portfolio-text">
-                    <h3>Proyecto 1 Brazo Robótico</h3>
-                    <p>Proyecto realizado con el lenguaje de MatLab, la cual trata sobre la simulacion de un brazo robotico con varias funcionalidades.</p>
-                </div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="proyecto2">
-                <img src="./imagenes/proy2 compilador.jpg" alt="Proyecto 2">
-                <div class="portfolio-text">
-                    <h3>Proyecto 2 Compilador Léxico</h3>
-                    <p>Programa realizado con java, la cual trata de poder analizar los caracteres y pasarlo a tokens.</p>
-                </div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="/proyecto3">
-                <img src="./imagenes/proy3vetarinaria.png" alt="Proyecto 3">
-                <div class="portfolio-text">
-                    <h3>Proyecto 3 Programa para una Veterinaria</h3>
-                    <p>Programa para registro realizado en C++, que da orden en pilas y colas</p>
-                </div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="/proyecto4">
-                <img src="./imagenes/proy4 interbloqueo.jpg" alt="Proyecto 4">
-                <div class="portfolio-text">
-                    <h3>Proyecto 4 Programa Interbloqueo</h3>
-                    <p>Programa que permite realizar acciones a nuestro sistema operativo, realizado con C#</p>
-                </div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="/proyecto5">
-                <img src="./imagenes/proy5 juegoAjedrez.jpg" alt="Proyecto 5">
-                <div class="portfolio-text">
-                    <h3>Proyecto 5 Juego de Ajedrez</h3>
-                    <p>Juego interactivo entre dos personas, realizado con Java.</p>
-                </div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="/proyecto6">
-                <img src="./imagenes/proy6.jpg" alt="Proyecto 5">
-                <div class="portfolio-text">
-                    <h3>Proyecto 6 Cálculo MRU</h3>
-                    <p>Página interactiva, para poder hacer cálculos con MRU.</p>
-                </div>
-            </a>
-        </div>
-        <div class="portfolio-item">
-            <a href="/proyecto7">
-                <img src="./imagenes/proy7.jpg" alt="Proyecto 5">
-                <div class="portfolio-text">
-                    <h3>Proyecto 7 Portafolio Ética</h3>
-                    <p>Página web, que describe todo el contenido visto en el curso Ética Profesional</p>
-                </div>
-            </a>
-        </div>
-    </section>
-    
-    <!-- SECCION 4 CONTACTO -->
-    <section id="contacto">
-        <h1>Contacto</h1>
-        <p>Mi correo electrónico es: <a href="mailto:elian@gmail.com">elian@gmail.com</a></p>
-        <p>Mi número telefónico es: <a href="tel:+54399128">Celular 54399128</a></p>
-    </section>
 
+            <div class="text-image-container">
+                <div class="text-section">
+                    <div class="greeting">
+                        <span>👋 Hola! Bienvenido a mi Portafolio</span>
+                    </div>
+                    <h1>Estudiante de <span class="highlight">Ingeniería en sistemas y ciencias de la computación</span> en la universidad <span class="highlight">Mariano Galvez de Guatemala</span> con ganas de más aprendizaje y experiencias</h1>
+                    <p>Con casi 2 años de experiencia en el área de informática, trabajando con tecnologías y áreas como bases de datos, programación, redes y más.</p>
+                </div>
+                <div class="image-section">
+                    <img src="/IMAGENES/imagenprincipal.png" alt="">
+                </div>
+            </div>
+           
+            <!-- Portafolio -->
+            <div id="portafolio" class="info-detail">
+                <h2>Portafolio</h2>
+            </div>
+            <div class="static-gallery">
+                <div class="static-gallery-item">
+                    <a href="index2.html">
+                        <img src="/IMAGENES/ajedrez.png" alt="Imagen 1">
+                        <p>Juego de ajedrez</p>
+                    </a>
+                </div>
+                <div class="static-gallery-item">
+                    <a href="index3.html">
+                        <img src="/IMAGENES/Estructuras.png" alt="Imagen 2">
+                        <p>Estructuras de datos</p>
+                    </a>
+                </div>
+                <div class="static-gallery-item">
+                    <a href="index4.html">
+                        <img src="/IMAGENES/compilador.png" alt="Imagen 3">
+                        <p>Compilador</p>
+                    </a>
+                </div>
+                <div class="static-gallery-item">
+                    <a href="index5.html">
+                        <img src="/IMAGENES/infomaquina.png" alt="Imagen 4">
+                        <p>Informacion de PC</p>
+                    </a>
+                </div>
+                <div class="static-gallery-item">
+                    <a href="index6.html">
+                        <img src="/IMAGENES/formulario.jpg" alt="Imagen 4">
+                        <p>Formulario para carga de informacio a la IVE</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Habilidades -->
+            <div id="habilidades" class="info-detail">
+                <h2>Habilidades</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-bar">
+                    <p>HTML</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 40%;">40%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>CSS</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 30%;">30%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>JavaScript</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 30%;">30%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>Python</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 45%;">45%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>Java</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>SQL</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>Git</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>React</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 10%;">10%</div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>Node.js</p>
+                    <div class="bar">
+                        <div class="progress" style="width: 10%;">10%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacto -->
+            <div id="contacto" class="info-detail">
+                <h2>Contacto</h2>
+                <div class="contacto-container">
+                    <div class="contacto-item">
+                        <img src="/IMAGENES/email.png" alt="Correo Electrónico" class="contacto-icono">
+                        <a href="mailto:andony71002@gmail.com">andony71002@gmail.com</a>
+                    </div>
+                    <div class="contacto-item">
+                        <img src="/IMAGENES/smartphone.png" alt="Teléfono" class="contacto-icono">
+                        <a href="tel:">00000000</a>
+                    </div>
+                    <div class="contacto-item">
+                        <img src="/IMAGENES/github.png" alt="GitHub" class="contacto-icono">
+                        <a href="https://github.com/andonyps" target="_blank">github.com/andonyps</a>
+                    </div>
+                    <div class="contacto-item">
+                        <img src="/IMAGENES/linkedin.png" alt="LinkedIn" class="contacto-icono">
+                        <a href="https://linkedin.com/in/brenton-andony-par-sohon-50598b323" target="_blank">linkedin.com/in/brenton-andony-par-sohon-50598b323</a>
+                    </div>
+                    <div class="contacto-item">
+                        <img src="/IMAGENES/gorjeo.png" alt="Twitter" class="contacto-icono">
+                        <a href="https://twitter.com/AndonyPar4552" target="_blank">@AndonyPar4552</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información Personal -->
+            <div id="info-personal" class="info-detail">
+                <h2>Información Personal</h2>
+                <div class="personal-info-container">
+                    <div class="personal-info-item">
+                        <span class="personal-info-label">Nombre Completo:</span>
+                        <span class="personal-info-value">Brenton Andony Manuel Par Sohon</span>
+                    </div>
+                    <div class="personal-info-item">
+                        <span class="personal-info-label">Fecha de Nacimiento:</span>
+                        <span class="personal-info-value">17 de octubre 2002</span>
+                    </div>
+                    <div class="personal-info-item">
+                        <span class="personal-info-label">Dirección:</span>
+                        <span class="personal-info-value">Guatemala, Guatemala</span>
+                    </div>
+                    <div class="personal-info-item">
+                        <span class="personal-info-label">Estado Civil:</span>
+                        <span class="personal-info-value">Soltero</span>
+                    </div>
+                    <div class="personal-info-item">
+                        <span class="personal-info-label">Nacionalidad:</span>
+                        <span class="personal-info-value">Guatemalteco</span>
+                    </div>
+                </div>
+
+                <h2>Estudios Académicos</h2>
+                <div class="education-container">
+                    <div class="education-item">
+                        <span class="education-label">Licenciatura en Ingeniería en Sistemas y Ciencias de la Computación:</span>
+                        <span class="education-value">Universidad Mariano Gálvez de Guatemala, 2021 - Presente</span>
+                    </div>
+                    <div class="education-item">
+                        <span class="education-label">Perito Contador con Orientación en Computación:</span>
+                        <span class="education-value">Instituto de Ciencias Comerciales ICCAS, 2018 - 2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; PORTAFOLIO 2024</p>
+        <p>&copy; Brenton Andony - Portafolio 2024</p>
     </footer>
 </body>
 </html>
